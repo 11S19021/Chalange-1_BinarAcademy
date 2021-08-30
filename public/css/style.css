@@ -55,6 +55,22 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.mt-m1 {
+  margin-top: 0rem !important;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
 
 hr {
   margin: 1rem 0;
@@ -6497,7 +6513,9 @@ textarea.form-control-lg {
 .border-5 {
   border-width: 5px !important;
 }
-
+.w-6 {
+  width: 6rem;
+}
 .w-6 {
   width: 6rem;
 }

@@ -1,7 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-const users = [{ email: "trivenapanjaitan7.1.3@gmail.com", password: "121212" }];
+const users = [{ email: "trivenapanjaitan7.1.3@gmail.com", password: "121212" },
+                {email:"", password:""}
+              ];
 let result = { isLogged: false };
 
 router
